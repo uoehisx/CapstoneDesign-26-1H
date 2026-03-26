@@ -41,7 +41,7 @@
 |37|[Optimus Prime](#team-37)| VM별 AI 워크로드 에너지 사용량 예측모델 설계
 |38|[ModalArc](#team-38)| MARS: Modality-Aware Reconfiguration Scheduler for On-device Multi-Modal Inference on Multi-Core NPUs
 |39|[NexStep](#team-39)| 음소 단위 분석을 통한 아동 맞춤형 발음 교정 놀이 앱
-|40|[MIND](#team-40)| Development of a Multimodal Artificial Intelligence Model for Triage Classification and Worklist Prioritization of Foot and Ankle X-ray Images
+|40|[MIND](#team-40)| 발 및 발목 엑스레이 영상의 응급도 분류 및 판독 우선순위 결정을 위한 멀티모달 인공지능 모델 개발
 |41|[Flippers](#team-41)| OpenAI 및 Google Map API 기반 사용자 맞춤형 AI 여행 플래너 솔루션
  
 [Return TOP](#list-of-teamsprojects)
@@ -633,15 +633,15 @@ ESG 리포팅 자동화, 맞춤형 행동 가이드, 경량화 플랫폼 |
 [Return TOP](#list-of-teamsprojects)
  
 # Team-40
-| (1) 과제명 |  Development of a Multimodal Artificial Intelligence Model for Triage Classification and Worklist Prioritization of Foot and Ankle X-ray Images |
+| (1) 과제명 |  발 및 발목 엑스레이 영상의 응급도 분류 및 판독 우선순위 결정을 위한 멀티모달 인공지능 모델 개발 |
 |:---  |---  |
 | (2) 팀 번호/이름 | 40-MIND |
-| (3) 구성원 | 한승연(2276346): 리더,*역할,...* <br> 김가영(2276031): 팀원,*역할,....* <br> 박지호(2176160): 팀원,*역할,....* |
+| (3) 구성원 | 김가영(2276031): 리더,*멀티모달 AI 모델 설계 담당* <br> 한승연(2276346): 팀원,*모델 학습 및 파인튜닝 담당* <br> 박지호(2176160): 팀원,*데이터 엔지니어링 담당* |
 | (4) 지도교수 | 황의원 교수 |
 | (5) 트랙  | 연구 |
 | (6) 과제 키워드 | Foot & Ankle X-ray, Triage System, Multimodal Learning, Multi-view Learning, Domain Adaptation, Radiology Workflow Optimization |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (7) 과제 내용 요약 |	1. 연구 배경 및 필요성 <br> <br> • 복잡한 구조: 발/발목은 26개의 뼈가 중첩되어 단순 X-ray로 미세 손상 식별이 어려움 <br>• 의료 현장 한계: 응급실 내 높은 외상 빈도 대비 전문의 부족으로 인한 판독 오류 위험 <br>• 도메인 차이: 기존 연구의 공개 데이터와 실제 임상 환경(비만, 석고 등) 간의 간극 존재 <br> <br>2. 해결 방법 (Proposed Solutions) <br>• Domain Adaptation: 공개 데이터 학습 후 병원 데이터 Fine-tuning으로 도메인 갭 최소화 <br>• Multi-view Learning: 동일 환자의 다양한 View(AP, Lateral 등) 활용 및 일관성 학습 <br>• Multimodal AI: 영상 정보와 임상 메타데이터(연령, 성별 등)를 결합하여 정교한 예측 <br>• AI Triage 시스템: 긴급도 점수 기반 워크리스트 자동 재정렬로 판독 효율성 극대화 <br> <br>3. 연구 단계 및 계획 <br>• 데이터: FracAtlas, AI Hub, LERA 등 공개 데이터 및 병원 데이터 확보 <br>• 모델: IRB 승인 후 Domain Adaptation 및 Multi-view 학습 단계적 진행 <br>• 평가: AUC, F1-score 검증 및 FIFO 대비 AI Triage 효율성 시뮬레이션 <br>🛠 Tech Stack <br>• Language: Python <br>• Model: CNN-based Multimodal AI (Transfer Learning, Domain Adaptation) <br>• Dataset: Public (FracAtlas, AI Hub, LERA, Kaggle) & Hospital Dataset |
+| (8) 주요 Link | Github Repository: https://github.com/mind-ewha/capstone-design |
  
 <br>
  
