@@ -471,7 +471,7 @@ ESG 리포팅 자동화, 맞춤형 행동 가이드, 경량화 플랫폼 |
 | (1) 과제명 |  Optimized Kernel Fusion for Accelerating Multimodal Inference on Edge Devices |
 |:---  |---  |
 | (2) 팀 번호/이름 | 29-Nitro |
-| (3) 구성원 | 강선화(2376004): 리더,*역할,...* <br> 박세진(2217011): 팀원,*역할,....* <br> 박윤형(2271029): 팀원,*역할,....* |
+| (3) 구성원 | 강선화(2376004): 리더, Multimodal Model 구조 분석 및 프로파일링, Kernel Fusion 구현, 성능 비교 실험 진행, 팀 주차별 계획 및 회의록 관리 <br> 박세진(2217011): 팀원, 프로젝트 전체 연구 방향 설계, Multimodal Model 구조 분석 및 프로파일링, Kernel Fusion 구현, 성능 비교 실험 진행 <br> 박윤형(2271029): 팀원, Multimodal Model 구조 분석 및 프로파일링, Kernel Fusion 구현, 성능 비교 실험 진행, 문서 정리 |
 | (4) 지도교수 | 윤명국 교수 |
 | (5) 트랙  | 연구 |
 | (6) 과제 키워드 | NVIDIA Jetson, Multimodal, CUTLASS, Kernel Fusion, Embedded GPU Optimization |
